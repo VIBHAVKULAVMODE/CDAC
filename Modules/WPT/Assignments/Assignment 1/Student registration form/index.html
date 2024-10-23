@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <h2>Student Registration Form</h2>
+            
+            <span class="info warning">* Mandatory Fields</span>
+            
+            <div class="form-group">
+                <label for="first-name">First Name: <span class="info warning">*</span></label>
+                <input type="text" id="first-name" name="first-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-first-name">Confirm First Name: <span class="info warning">*</span></label>
+                <input type="text" id="confirm-first-name" name="confirm-first-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name" name="middle-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-middle-name">Confirm Middle Name:</label>
+                <input type="text" id="confirm-middle-name" name="confirm-middle-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last Name: <span class="info warning">*</span></label>
+                <input type="text" id="last-name" name="last-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-last-name">Confirm Last Name: <span class="info warning">*</span></label>
+                <input type="text" id="confirm-last-name" name="confirm-last-name" maxlength="35">
+                <span class="info">(Maximum 35 Characters)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" disabled>
+            </div>
+
+            <p class="info-text">
+                The Name entered in the online application form should match exactly with the requisite documents...
+            </p>
+
+            <div class="form-group">
+                <label for="mobile">Mobile No.: <span class="info warning">*</span></label>
+                <span class="mobile-prefix">+91</span>
+                <input type="tel" id="mobile" name="mobile" maxlength="10">
+                <span class="info">(10 digits) </span>
+                <span class="info warning">Please Do not prefix zero (0)</span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-mobile">Confirm Mobile No.: <span class="info warning">*</span></label>
+                <span class="mobile-prefix">+91</span>
+                <input type="tel" id="confirm-mobile" name="confirm-mobile" maxlength="10">
+            </div>
+
+            
+
+            <div class="form-group">
+                <label for="email">Email ID: <span class="info warning">*</span></label>
+                <input type="email" id="email" name="email" maxlength="60">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-email">Confirm Email ID: <span class="info warning">*</span></label>
+                <input type="email" id="confirm-email" name="confirm-email" maxlength="60">
+            </div>
+
+            
+            <button type="submit">Save & Next</button>
+        </form>
+    </div>
+</body>
+</html>
