@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Image at the top center -->
+        <div class="image-container">
+            <img src="https://www.cdac.in/img/cdac-logo-sm.png" alt="Top Image">
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <div class="info-box">
+                <i class="icon">📍</i>
+                <p><strong>Our Main Office</strong><br>
+                CDAC, Kharghar, 410210</p>
+            </div>
+            <div class="info-box">
+                <i class="icon">📞</i>
+                <p><strong>Phone Number</strong><br>
+                +91-22-27565303</p>
+            </div>
+            <div class="info-box">
+                <i class="icon">📠</i>
+                <p><strong>Fax</strong><br>
+                +91-22-2756-0004</p>
+            </div>
+            <div class="info-box">
+                <i class="icon">✉️</i>
+                <p><strong>Email</strong><br>
+                faculty@cdac.in</p>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <!-- Text Inputs -->
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter a valid email address" required>
+
+                <!-- Phone Number Input -->
+                <input type="tel" placeholder="Enter your Phone Number" required>
+
+                <!-- Dropdown Menu -->
+                <label for="inquiry-type">Select Inquiry Type:</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="sales">Sales</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <!-- Radio Buttons -->
+                <p><strong>How did you hear about us?</strong></p>
+                <label>
+                    <input type="radio" name="hear-about-us" value="internet" required> Internet
+                
+                    <input type="radio" name="hear-about-us" value="friend" required> Friend
+                
+                    <input type="radio" name="hear-about-us" value="advertisement" required> Advertisement
+                </label>
+
+                <!-- Checkbox Options -->
+                <p><strong>Interested Services:</strong></p>
+                <label>
+                    <input type="checkbox" name="services" value="web-development"> Web Development	
+                
+                    <input type="checkbox" name="services" value="app-development"> App Development
+                
+                    <input type="checkbox" name="services" value="digital-marketing"> Digital Marketing
+                </label>
+
+                <!-- Date Input -->
+                <label for="appointment-date">Preferred Contact Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date" required>
+
+                <!-- Message Area -->
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
